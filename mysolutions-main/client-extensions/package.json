@@ -1,0 +1,13 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "add-new-team-member",
+            "nav-dashboard",
+            "project-management",
+            "raise-ticket",
+            "team-members",
+            "ticket-list"
+        ]
+    }
+}

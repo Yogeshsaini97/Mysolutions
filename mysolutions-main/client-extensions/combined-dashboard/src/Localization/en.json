@@ -1,0 +1,38 @@
+{
+  "PROJECTS": "Projects",
+  "PROJECT_STATS":"Project stats",
+  "DASHBOARD": "Dashboard",
+  "N/A": "N/A",
+  "SUBMITTED":"submitted",
+  "RFQ":"RFQ",
+  "ORDERS":"Orders",
+  "Tickets":"tickets",
+  "TALK_TO_US": "Talk To Us",
+  "OOPS": "Oops! Something went wrong",
+  "DISMISS": "Dismiss",
+  "PROJECT_TITLE_&_ID": "Project title & ID",
+  "STATUS": "Status",
+  "ACTUAL":"Actual",
+  "PLANNED":"Planned",
+  "Closed":"Closedopop",
+  "OVERVIEW":"Overview",
+  "SUPPORT_TICKETS":"Support case",
+  "OVERALL_HEALTH":"Overall health",
+  "OVERALL_RESOLVED":"Overall Resolved",
+  "SUBSCRIPTIONS":"Subscriptions",
+  "CLICK_TO_VIEW_MORE":"Click To View More",
+  "CLICK_TO_VIEW_DETAILS":"Click to view details",
+  "INVOICES":"Invoices",
+  "YOU_HAVE":"You have",
+  "APPROVALS":"Approvals",
+  "aPPROVALS":"approvals",
+  
+
+  "IN_PROGRESS":"In progress",
+  "HO_IN_PROGRESS":"HO-In progress",
+  "ON_HOLD":"On hold",
+ 
+  "COMPLETED":"Completed",
+  "CLOSED":"Closed"
+ 
+}
