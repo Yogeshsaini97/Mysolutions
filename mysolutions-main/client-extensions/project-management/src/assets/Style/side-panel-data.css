@@ -1,0 +1,64 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+    margin: 0px 70px 15px 10px;
+}
+
+/* Style for grid items */
+.grid-item {
+   /* Background color for the boxes */
+   padding: 5px;
+   padding-left: 47px;
+   font-size: 13px;
+   /* text-align: center; */
+   color: #4F008C;
+   font-weight: 700;
+   
+}
+
+/* Additional text below the box text */
+.additional-text {
+    font-size: 13px;
+    color: #555;
+}
+
+/* Add responsive styles */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(1, 1fr); /* Single column on smaller screens */
+    }
+}
+
+
+
+.grid-containerDescription {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    max-width: 600px;
+    margin: 0px 70px 15px 10px;
+
+}
+
+/* Style for grid items */
+.grid-itemDescription {
+   /* Background color for the boxes */
+   padding: 5px;
+   padding-left: 47px;
+   font-size:13px;
+   color: #4F008C;
+   font-weight: 700;
+}
+
+/* Additional text below the box text */
+.additional-text {
+    font-size: 13px;
+    color: #555;
+}
+
+/* Add responsive styles */
+@media (max-width: 768px) {
+    .grid-containerDescription {
+        grid-template-columns: repeat(1, 1fr); /* Single column on smaller screens */
+    }
+}

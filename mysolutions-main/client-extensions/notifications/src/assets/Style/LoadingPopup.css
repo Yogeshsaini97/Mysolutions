@@ -1,0 +1,81 @@
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-content {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  animation: fadeIn 0.5s ease-in;
+  height: 12rem;
+  width: 34rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 13px;
+}
+.popup-image {
+  position: absolute;
+  top: -60px;
+  left: -58px;
+
+  max-width: calc(100% - 60px);
+  max-height: calc(100% - -60px);
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.loaderPopup {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 20px;
+}
+
+
+/* .popupImage::before {
+  width: 216px;
+  height: 270px;
+  content: ' ';
+  position: absolute;
+  bottom: 0px;
+  left: -110px;
+  background-image: url(http://localhost:8080/documents/d/guest/modal-approveThePlan);
+  background-repeat: no-repeat;
+  z-index: 1;
+} */
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.custom-fade-enter-active,
+.custom-fade-leave-active {
+  transition: opacity 1s;
+}
+
+.custom-fade-enter, .custom-fade-leave-to /* .custom-fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}

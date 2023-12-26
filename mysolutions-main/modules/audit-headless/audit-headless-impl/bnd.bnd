@@ -1,0 +1,3 @@
+Bundle-Name: audit-headless-impl
+Bundle-SymbolicName: sa.com.mysolutions.audit.headless.impl
+Bundle-Version: 1.0.0

@@ -1,0 +1,10 @@
+dependencies {
+	compile project(":modules:external-api-headless:external-api-headless-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+
+	restBuilder group: "com.liferay", name: "com.liferay.portal.tools.rest.builder", version: "1.0.222"
+	compileOnly project(":modules:common-constants")
+}
+
+group = "sa.com.mysolutions.external.api.headless"

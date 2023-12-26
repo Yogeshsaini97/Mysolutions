@@ -1,0 +1,9 @@
+apiDir: "../audit-headless-api/src/main/java"
+apiPackagePath: "sa.com.mysolutions.audit.headless"
+application:
+    baseURI: "/audit-headless"
+    className: "AuditHeadlessApplication"
+    name: "AuditHeadless"
+author: "ashish.singh"
+clientDir: "../audit-headless-client/src/main/java"
+testDir: "../audit-headless-test/src/testIntegration/java"

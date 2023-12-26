@@ -1,0 +1,6 @@
+Bundle-Name: otp-fragment
+Bundle-SymbolicName: otp.fragment
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.multi.factor.authentication.email.otp.web.internal.*
+Fragment-Host: com.liferay.multi.factor.authentication.email.otp.web;bundle-version="2.0.24"
+Portal-Bundle-Version: 7.4.13

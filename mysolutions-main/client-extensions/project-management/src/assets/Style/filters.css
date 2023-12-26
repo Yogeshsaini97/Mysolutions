@@ -1,0 +1,17 @@
+.form-check
+{
+  width: 95px;
+  height: 23px;
+  background-color: #f4f5f5;
+  border-radius: 100px;
+  display: flex!important;
+  align-content: center!important;
+  align-items: center!important;
+  justify-content: space-between!important;
+}
+
+#gridcheck
+{
+  margin-bottom: 1px!important;
+  margin-left:-15px!important;
+}

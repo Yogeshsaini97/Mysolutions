@@ -1,0 +1,24 @@
+{
+    "Dashboshed": [{}],
+    "ticket": [
+      {
+        "key": "UPDATE",
+        "name": "UPDATE_PROJECT_OVERVIEW"
+      }
+    ],
+    "id": "roleid",
+    "projectManagementActions": [
+      {
+        "key": "READ",
+        "name": "VIEW_PROJECT_LIST"
+      },
+      {
+        "key": "READ",
+        "name": "VIEW_PROJECT_OVERVIEW"
+      },
+      {
+        "key": "UPDATE",
+        "name": "UPDATE_PROJECT_OVERVIEW"
+      }
+    ]
+  }

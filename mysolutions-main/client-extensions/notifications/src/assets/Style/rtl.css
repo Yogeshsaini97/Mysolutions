@@ -1,0 +1,106 @@
+
+
+.rtl .greentext {
+    display: inline-block;
+}
+
+
+
+.rtl .img-flip{
+
+    transform: rotate(270deg);
+    
+    }
+    
+     
+    
+    .rtl img.w-15p {
+    
+    transform: rotate(270deg);
+    
+    }
+    
+
+    .rtl .img-fluid{
+        transform: rotateY(180deg);
+        }
+    .rtl  .card-body p img.w-15p {
+        transform: rotate(280deg);
+    }
+    
+    .rtl p.mb-0.text-right.font-10 {
+        text-align: left !important;
+    }
+  
+    .rtl .greentext {
+     display: inline-block;
+    }
+    
+     
+    
+    .rtl .row.prog-bar {
+    
+        text-align: right;
+    
+    }
+    
+     
+    
+     
+    
+    .rtl .img-flip{
+    
+     
+    
+        transform: rotate(270deg);
+    
+       
+    
+        }
+    
+       
+    
+         
+    
+       
+    
+        .rtl img.w-15p {
+    
+       
+    
+        transform: rotate(270deg);
+    
+       
+    
+        }
+    
+       
+    
+     
+    
+        .rtl .img-fluid{
+    
+            transform: rotateY(180deg);
+    
+            }
+
+            .rtl .text-right {
+                text-align: left !important;
+             }  
+
+
+             .rtl .backbuttonfix{
+             
+                z-index:10;
+             }
+
+             .rtl .backbuttonfix a
+             {
+                margin-right: 3px;
+                margin-left: 3px;
+             }
+
+
+             .rtl .talktousrtl{
+                margin-right: 15px;
+             }

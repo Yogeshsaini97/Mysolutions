@@ -1,0 +1,7 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+	//compileOnly group: 'com.liferay', name: 'com.liferay.multi.factor.authentication.email.otp.api'
+	compileOnly group: "javax.mail", name: "mail", version: "1.4.1"
+	compileOnly project(":modules:common-constants")
+	compileOnly project(":modules:stcs-http:stcs-http-api")
+}

@@ -1,0 +1,9 @@
+apiDir: "../external-api-headless-api/src/main/java"
+apiPackagePath: "sa.com.mysolutions.external.api.headless"
+application:
+    baseURI: "/external-api-headless"
+    className: "ExternalApiHeadlessApplication"
+    name: "ExternalApiHeadless"
+author: "ashish.singh"
+clientDir: "../external-api-headless-client/src/main/java"
+testDir: "../external-api-headless-test/src/testIntegration/java"

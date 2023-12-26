@@ -1,0 +1,495 @@
+.sucess{
+  color:#22C697;
+  font-size: 8px;
+
+}
+.late{
+  color:#FF375E;
+  font-size: 8px;
+
+}
+.comp{
+  color:#4F008C;
+  font-size: 8px;
+
+}
+.dcolor {
+    
+    color: #ff7446;
+    
+
+ }
+
+ #scheduleTable thead th{
+  position: sticky;
+    top: 0;
+    background-color: #ffffff; /* You can set a different background color if needed */
+    z-index: 1;
+}
+#scheduleTable thead th:nth-child(2), #scheduleTable thead th:nth-child(2),#scheduleTable thead th:first-child, #scheduleTable thead th:first-child {
+    position: sticky;
+    top: 0;
+    background-color: #ffffff; /* You can set a different background color if needed */
+    z-index: 4;
+}
+#scheduleTable th:nth-child(2), #scheduleTable td:nth-child(2),#scheduleTable th:first-child, #scheduleTable td:first-child {
+    position: sticky;
+    left: 0;
+    background-color: #ffffff; /* You can set a different background color if needed */
+    z-index: 1;
+}
+#scheduleTable th:nth-child(2), #scheduleTable td:nth-child(2){
+  left:38px;
+}
+
+  .square {
+    border-radius: 0 !important;
+  }
+
+
+.square-black {
+  background-color: #101010;
+  color: #ffffff;
+  padding: 7px 11px !important;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+}
+
+.square {
+  width: 11px;
+  height: 11px;
+  background-color: #F1F1F1;
+  margin-right: 1px;
+}
+
+.square.square-red {
+  background-color: #f24747;
+}
+.square.square-grey {
+  background-color: #808080;
+}
+.square.square-lightgreen {
+  background-color: #90EE90;
+}
+
+.square.square-blue {
+  background-color: #47E9F2;
+}
+
+.square.square-orange {
+  background-color: #FF7446;
+}
+
+.square.square-purple {
+  background-color: #AF4AF4;
+}
+
+.square.square-green {
+  background-color: #22C697;
+}
+
+.square.square-default {
+  background-color: #4F008C;
+}
+
+.red-small-dot-top {
+  background: #f24747;
+  position: absolute;
+  top: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.red-small-dot-bottom {
+  background: #f24747;
+  position: absolute;
+  bottom: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+.lightgreen-small-dot-top {
+  background: #90EE90;
+  position: absolute;
+  top: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.lightgreen-small-dot-bottom {
+  background: #90EE90;
+  position: absolute;
+  bottom: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+.grey-small-dot-top {
+  background: #808080;
+  position: absolute;
+  top: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.grey-small-dot-bottom {
+  background: #808080;
+  position: absolute;
+  bottom: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.blue-small-dot-top {
+  background: #47E9F2;
+  position: absolute;
+  top: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.blue-small-dot-bottom {
+  background: #47E9F2;
+  position: absolute;
+  bottom: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.orange-small-dot-top {
+  background: #FF7446;
+  position: absolute;
+  top: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.orange-small-dot-bottom {
+  background: #FF7446;
+  position: absolute;
+  bottom: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.purple-small-dot-top {
+  background: #AF4AF4;
+  position: absolute;
+  top: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.purple-small-dot-bottom {
+  background: #AF4AF4;
+  position: absolute;
+  bottom: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.green-small-dot-top {
+  background: #22C697;
+  position: absolute;
+  top: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.green-small-dot-bottom {
+  background: #22C697;
+  position: absolute;
+  bottom: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.default-small-dot-top {
+  background: #4F008C;
+  position: absolute;
+  top: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.default-small-dot-bottom {
+  background: #4F008C;
+  position: absolute;
+  bottom: 5px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.vertical-line {
+  position: absolute;
+  top: 12.5px;
+  left: 16.8px;
+  width: 1.4px;
+  height: 11px;
+  background-color: #8E9AA0;
+  border-radius: 50px;
+}
+
+.pr-0 {
+  padding-right: 0px !important;
+}
+.pl-10 {
+  padding-left: 10px !important;
+}
+
+#scheduleTable thead th{
+                position: sticky;
+                  top: 0;
+                  background-color: #ffffff; /* You can set a different background color if needed */
+                  z-index: 1;
+              }
+              #scheduleTable thead th:nth-child(2), #scheduleTable thead th:nth-child(2),#scheduleTable thead th:first-child, #scheduleTable thead th:first-child {
+                  position: sticky;
+                  top: 0;
+                  background-color: #ffffff; /* You can set a different background color if needed */
+                  z-index: 4;
+              }
+  #scheduleTable th:nth-child(2), #scheduleTable td:nth-child(2),#scheduleTable th:first-child, #scheduleTable td:first-child {
+                  position: sticky;
+                  left: 0;
+                  background-color: #ffffff; /* You can set a different background color if needed */
+                  z-index: 1;
+              }
+              #scheduleTable th:nth-child(2), #scheduleTable td:nth-child(2){
+                left:38px;
+              }
+
+
+              .square {
+                border-radius: 0 !important;
+              }
+            
+            
+            .square-black {
+              background-color: #101010;
+              color: #ffffff;
+              padding: 7px 11px !important;
+              text-align: center;
+              width: 40px;
+              height: 40px;
+            }
+            
+            .square {
+              width: 11px;
+              height: 11px;
+              background-color: #F1F1F1;
+              margin-right: 1px;
+            }
+            
+            .square.square-red {
+              background-color: #f24747;
+            }
+            .square.square-grey {
+              background-color: #808080;
+            }
+            .square.square-lightgreen {
+              background-color: #90EE90;
+            }
+            
+            .square.square-blue {
+              background-color: #47E9F2;
+            }
+            
+            .square.square-orange {
+              background-color: #FF7446;
+            }
+            
+            .square.square-purple {
+              background-color: #AF4AF4;
+            }
+            
+            .square.square-green {
+              background-color: #22C697;
+            }
+            
+            .square.square-default {
+              background-color: #4F008C;
+            }
+            
+            .red-small-dot-top {
+              background: #f24747;
+              position: absolute;
+              top: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            
+            .red-small-dot-bottom {
+              background: #f24747;
+              position: absolute;
+              bottom: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            .lightgreen-small-dot-top {
+              background: #90EE90;
+              position: absolute;
+              top: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            
+            .lightgreen-small-dot-bottom {
+              background: #90EE90;
+              position: absolute;
+              bottom: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            .grey-small-dot-top {
+              background: #808080;
+              position: absolute;
+              top: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            
+            .grey-small-dot-bottom {
+              background: #808080;
+              position: absolute;
+              bottom: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            
+            .blue-small-dot-top {
+              background: #47E9F2;
+              position: absolute;
+              top: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            
+            .blue-small-dot-bottom {
+              background: #47E9F2;
+              position: absolute;
+              bottom: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            
+            .orange-small-dot-top {
+              background: #FF7446;
+              position: absolute;
+              top: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            
+            .orange-small-dot-bottom {
+              background: #FF7446;
+              position: absolute;
+              bottom: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            
+            .purple-small-dot-top {
+              background: #AF4AF4;
+              position: absolute;
+              top: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            
+            .purple-small-dot-bottom {
+              background: #AF4AF4;
+              position: absolute;
+              bottom: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            
+            .green-small-dot-top {
+              background: #22C697;
+              position: absolute;
+              top: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            
+            .green-small-dot-bottom {
+              background: #22C697;
+              position: absolute;
+              bottom: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            
+            .default-small-dot-top {
+              background: #4F008C;
+              position: absolute;
+              top: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+            
+            .default-small-dot-bottom {
+              background: #4F008C;
+              position: absolute;
+              bottom: 5px;
+              width: 5px;
+              height: 5px;
+              border-radius: 50%;
+            }
+
+
+
+
+            /* schedule tabe fix ------- */
+
+
+            .table-responsive { overflow: auto; height: 100vh; }
+            .table-responsive  #scheduleTable thead th { position: sticky; top: 0; z-index: 3;background-color: #ffffff;  }
+            #scheduleTable   { border-collapse: collapse; width: 100%; }
+             
+            .table-responsive   #scheduleTable th:nth-child(2), #scheduleTable td:nth-child(2),#scheduleTable th:first-child, #scheduleTable td:first-child {
+                              position: sticky;
+                              left: 0;
+                              background-color: #ffffff; /* You can set a different background color if needed */
+                              z-index:2;
+                          }
+                          .table-responsive #scheduleTable th:nth-child(2),.table-responsive  #scheduleTable td:nth-child(2){
+                            left:104px;
+                          }
+                          .table-responsive #scheduleTable th:nth-child(2), .table-responsive  #scheduleTable th:first-child{
+                            z-index:5;
+                          }
+
+
+            /* ------- */

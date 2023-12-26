@@ -1,0 +1,1 @@
+create index IX_D5BED02D on FOO_APIDetails (uuid_[$COLUMN_LENGTH:75$]);

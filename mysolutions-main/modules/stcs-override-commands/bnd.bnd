@@ -1,0 +1,4 @@
+Bundle-Name: stcs-override-commands
+Bundle-SymbolicName: stcs.override.commands
+Bundle-Version: 1.0.0
+Export-Package: sa.com.mysolutions.override.commands.api

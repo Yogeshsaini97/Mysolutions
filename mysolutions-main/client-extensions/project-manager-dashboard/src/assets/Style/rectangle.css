@@ -1,0 +1,33 @@
+.rectangle-green2 {
+    background-color: #22C697;
+    color: #ffffff;
+    border-radius: 8px 0px;
+    transform: rotate(90deg);
+    width: 30px;
+    height: 30px;
+  }
+  .rectangle-grey {
+    background-color: #8E9AA0;
+    color: #ffffff;
+    border-radius: 8px 0px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(90deg);
+  }
+  .rectangle-lightgreen {
+    background-color: #47E9F2;
+    color: #ffffff;
+    border-radius: 8px 0px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(90deg);
+  }
+  .rectangle-orange {
+    background-color: #FF7446;
+    color: #ffffff;
+    border-radius: 8px 0px;
+    width: 30px;
+    height: 30px;
+    transform: rotate(90deg);
+  }
+  

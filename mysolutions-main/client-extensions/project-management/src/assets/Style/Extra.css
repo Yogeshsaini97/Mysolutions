@@ -1,0 +1,434 @@
+.StatusCanceled
+{
+    background-color: rgb(183 183 183 / 10%)!important;
+    color: #000000 !important;
+
+}
+
+
+.StatusOpen
+{
+    background-color: rgb(183 183 183 / 10%)!important;
+    color:#22C697 !important;
+
+}
+.addScroll
+{
+    width: 100%;
+
+    overflow: auto;
+}
+
+.table tbody tr:nth-child(even) {
+
+    background-color: unset!important;
+
+}
+
+
+.addScroll .table td, .table th {
+    max-width: 250px !important;
+  }
+  .addScroll .table thead tr th {
+    white-space: nowrap !important;
+    font-weight: 600!important;
+  }
+
+  td > span.font-weight-400 {
+    color: #8E9AA0 !important;
+}
+
+.table tr td:last-child,.table tr th:last-child
+{
+
+
+  text-align: right;
+} 
+
+
+.rtl .table tr td:last-child,.rtl .table tr th:last-child
+{
+  text-align: left;
+} 
+
+
+.paginationDown
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 80vh;
+
+}
+
+.border-left-zero
+{
+  border-left: 0px !important;
+}
+
+/* --------- */
+
+.progress-bars {
+  width: 100%;
+  height: 50px;
+  background-color: #f0f0f0;
+  position: relative;
+  border-radius: 25px;
+  /* Rounded corners */
+}
+
+.arrow {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid;
+  position: absolute;
+  bottom: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.arrow-planned {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.red-circle-filter
+{
+  position: absolute!important;
+    right: 0px!important;
+    top: 0px!important;
+    padding: 3px 5px!important;
+    font-size: 10px!important;
+    font-weight: 400!important;
+    font-family: 'Jost', sans-serif !important;
+    background: #D8222A 0% 0% no-repeat padding-box!important;
+}
+
+
+.bar {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 25px;
+  /* Rounded corners */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* Align text to the top of the bar */
+}
+
+.grey {
+  background-color: #dcdcdc;
+  /* Lighter grey color */
+}
+
+.red {
+  background-color: #FF375E;
+  /* Light red color */
+}
+
+.yellow {
+  background-color:
+    #FF7446;
+  /* Yellow color */
+}
+
+.green {
+  background-color:
+    #22C697;
+  /* Green color */
+}
+
+.purple {
+  background-color: #4F008C;
+  /* Lighter grey color */
+}
+
+.redtext {
+  color: #FF375E;
+  ;
+}
+
+.yellowtext {
+  color:
+    #FF7446;
+}
+
+.greentext {
+  color:
+    #22C697;
+}
+
+.purpletext {
+  color: #4F008C;
+}
+
+.greytext {
+  color:
+    #8E9AA0
+}
+
+.lightpurpletext {
+
+  color: #AF4AF4
+}
+
+.floating-text {
+  position: absolute;
+  top: -23px;
+  left: 0px;
+
+
+}
+
+.floating-text-planned {
+  position: absolute;
+  top: -23px;
+  right: -28px;
+
+}
+
+.red-text {
+  background-color: #ff6b6b;
+}
+
+.yellow-text {
+  background-color: #ffc107;
+}
+
+.green-text {
+  background-color: #2ecc71;
+}
+
+td a
+{
+  color:black!important
+}
+
+.el-pagination button
+{
+  color: 
+  #FF375E!important;
+  font-weight: 800!important;
+}
+
+
+button:disabled {
+  color: var(--el-pagination-button-disabled-color)!important;
+  background-color: var(--el-pagination-button-disabled-bg-color);
+  cursor: not-allowed;font-weight: 800!important;
+}
+
+.el-pager li {
+
+  color: var(--Black, #101010)!important;
+  leading-trim: both!important;
+  
+  text-edge: cap!important;
+  font-family: STC Forward!important;
+  font-size: 14px!important;
+  font-style: normal!important;
+  font-weight: 800!important;
+  line-height: normal!important;
+}
+
+
+.el-pager li.is-active {
+  color: 
+  #FF375E!important;
+  cursor: default;
+
+  font-weight: 800!important;
+}
+
+
+.el-icon svg {
+  scale:1.3!important
+
+ 
+} 
+
+.el-pagination__total {
+ 
+  font-weight: 800!important;
+
+  color: 
+  #FF375E!important;
+}
+
+
+#myHeader
+{
+
+  z-index: 1100;
+  transition: top 0.3s, opacity 0.3s;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.myclass
+{
+  background-color: #8E9AA0;
+}
+
+
+.div-responsive
+{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 9ch; /* Change this value to your desired character limit */
+}
+
+
+.projectpopupclose{
+  margin: -1rem -6rem -1rem auto!important;
+
+}
+
+/* --------- */
+
+
+
+
+@media(min-width:767px){
+
+  .table{
+    position: relative;
+  }
+  .table thead{
+    position: sticky;
+      top: -5px;
+      z-index: 20;
+
+      /* background: white; */
+  }
+  
+
+}
+.table{
+  position: relative;
+}
+
+/* .table thead{
+  position: sticky;
+    top: -5px;
+  
+    z-index: 500;
+    background: white;
+} */
+
+
+.on-open-filter{
+    position: sticky !important;
+    top: -5px !important;
+    z-index: 0;
+    background: white !important;
+}
+
+.on-close-filter {
+  position: sticky !important;
+  top: -5px !important;
+  z-index: 500 !important;
+  background: white !important;
+}
+
+.button-invoice{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.form-invoice
+{
+      max-width: 400px;
+      margin: 20px auto;
+}
+
+.form-invoice label {
+  display: block;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.form-invoice input {
+  width: 110%;
+  height: 50px;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.form-invoice button
+{
+  width: 140px !important;
+  margin: auto 80px;
+}
+
+.risk-ml
+{
+  margin-left: 14px;
+}
+
+/* .btn-purple
+{
+  color: #4F008C  !important;
+} */
+
+.download-file
+{
+  filter: invert(1);
+  opacity: 0.7;
+}
+
+
+.div-responsive
+{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 9ch;
+}
+
+.talk
+{
+    color: #4F008C !important;
+    font-weight: 600;
+    min-width: 4rem ;
+}
+
+.inputPlaceHolder::placeholder {
+  padding-left: 5px;
+  color: black !important;
+  opacity: 0.4 !important;
+}
+
+.rtl h2.my-3.line-height-15
+{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.rtl .text-dark .font-12 .opacity-60
+{
+  display: flex;
+  flex-direction: column-reverse;
+}

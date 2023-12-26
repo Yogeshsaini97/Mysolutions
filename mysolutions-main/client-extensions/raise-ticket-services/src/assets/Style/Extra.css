@@ -1,0 +1,11 @@
+.form-group:has(input.form-control:focus) label {
+    opacity: 1;
+  }
+
+  .talk
+{
+    color: #4F008C !important;
+    font-weight: 600;
+    min-width: 5rem ;
+}
+  

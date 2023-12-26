@@ -1,0 +1,23 @@
+.form-group:has(input.form-control:focus) label {
+  opacity: 1;
+}
+
+.talk {
+  color: #4f008c !important;
+  font-weight: 600;
+  min-width: 5rem;
+}
+
+.form-control:disabled {
+  background-color: #f7f7f7 !important;
+  color: #666666 !important;
+  border-radius: 5px;
+  cursor: not-allowed;
+}
+
+.validation-errors {
+  font-size: 13px;
+  color: #dc3545;
+  font-weight: 100;
+  font-family: "STC Forward";
+}

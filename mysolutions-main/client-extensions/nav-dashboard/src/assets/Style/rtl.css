@@ -1,0 +1,51 @@
+.rtl .text-right {
+
+   text-align: left !important;
+
+}
+
+.rtl .img-flip{
+
+transform: rotate(270deg);
+
+}
+
+ 
+
+.rtl img.w-15p {
+
+transform: rotate(270deg);
+
+}
+
+/* ----for arrow rotate  */
+
+
+.rtl .arrow {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid white;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    left: 150px;
+    top: 31%;
+    transform: rotate(180deg);
+}
+
+.rtl .card.hoverstats{
+    transition: opacity 0.3s ease-in-out 0s;
+    position: absolute;
+    z-index: 1;
+    top: -31px;
+    right: 102%;
+    transform: translateX(10px);
+}
+
+
+
+.rtl .card.hoverstats .img{
+  
+    transform: rotate(180deg);
+}

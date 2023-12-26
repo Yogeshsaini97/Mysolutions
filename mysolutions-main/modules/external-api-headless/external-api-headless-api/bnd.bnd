@@ -1,0 +1,6 @@
+Bundle-Name: external-api-headless-api
+Bundle-SymbolicName: sa.com.mysolutions.external.api.headless.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	sa.com.mysolutions.external.api.headless.dto.v1_0,\
+	sa.com.mysolutions.external.api.headless.resource.v1_0

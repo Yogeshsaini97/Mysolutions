@@ -1,0 +1,4 @@
+Bundle-Name: stcs-scheduler
+Bundle-SymbolicName: sa.com.mysolutions.stcs.scheduler
+Bundle-Version: 1.0.0
+Export-Package: sa.com.mysolutions.stcs.scheduler.api

@@ -1,0 +1,63 @@
+info:
+    description: "AuditHeadless REST API"
+    license:
+        name: "Apache 2.0"
+        url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+    title: "AuditHeadless"
+    version: v1.0
+openapi: 3.0.1
+components:
+    schemas:
+        Audit:
+          description: This components represents User Activity
+          properties:
+            userID:
+              type: string
+              readOnly: true
+            userName:
+              type: string
+            resourceName:
+              type: string
+            resourceAction:
+              type: string
+            createDate:
+              type: string
+            time:
+              type: string  
+            eventID:
+              type: string
+          type: object           
+paths:
+    "/my-audit-reports":
+           get:
+            description: This component is used to access audit report of the users.
+            operationId: getAuditReport
+            parameters:
+              - in: query
+                name: userID
+                schema:
+                  type: string
+              - in: query
+                name: page
+                schema:
+                  type: integer
+              - in: query
+                name: pageSize
+                schema:
+                  type: integer      
+            responses:
+              '200':
+                content:
+                  application/json:
+                    schema:
+                      items:
+                        $ref: '#/components/schemas/Audit'
+                      type: array
+                  application/xml:
+                    schema:
+                      items:
+                        $ref: '#/components/schemas/Audit'
+                      type: array
+                  
+                description: ''
+            tags: ["Audit"]

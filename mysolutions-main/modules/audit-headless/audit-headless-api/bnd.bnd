@@ -1,0 +1,7 @@
+Bundle-Name: audit-headless-api
+Bundle-SymbolicName: sa.com.mysolutions.audit.headless.api
+Bundle-Version: 1.0.0
+Export-Package: \
+	sa.com.mysolutions.audit.headless.dto.v1_0,\
+	sa.com.mysolutions.audit.headless.resource.v1_0,\
+	sa.com.mysolutions.audit.exception

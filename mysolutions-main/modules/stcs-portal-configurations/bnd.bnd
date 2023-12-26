@@ -1,0 +1,10 @@
+Bundle-Name: stcs-portal-configurations
+Bundle-SymbolicName: stcs.portal.configurations
+Bundle-Version: 1.0.0
+Export-Package: \
+	stcs.portal.configurations.constants,\
+	stcs.portal.configurations.configuration,\
+	stcs.portal.configurations.configuration.category,\
+	stcs.portal.configurations.constants,\
+	stcs.portal.configurations.portlet
+-metatype: *

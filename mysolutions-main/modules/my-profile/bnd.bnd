@@ -1,0 +1,5 @@
+Bundle-Name: my-profile
+Bundle-SymbolicName: sa.com.mysolutions.my.profile
+Bundle-Version: 1.0.0
+
+Export-Package: sa.com.mysolutions.my.profile.constants

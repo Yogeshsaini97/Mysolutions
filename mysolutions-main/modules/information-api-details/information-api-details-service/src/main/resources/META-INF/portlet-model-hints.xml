@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.info.api.details.model.APIDetails">
+		<field name="uuid" type="String" />
+		<field name="ID" type="long" />
+		<field name="CreateDate" type="Date" />
+		<field name="UserID" type="long" />
+		<field name="Path" type="String" />
+		<field name="Method" type="String" />
+		<field name="RequestBody" type="String" />
+		<field name="ResponseCode" type="int" />
+		<field name="ResponseMessage" type="String" />
+	</model>
+</model-hints>

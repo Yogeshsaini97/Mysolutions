@@ -1,0 +1,10 @@
+Bundle-Name: information-api-details-api
+Bundle-SymbolicName: com.info.api.details.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.info.api.details.exception,\
+	com.info.api.details.model,\
+	com.info.api.details.service,\
+	com.info.api.details.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../information-api-details-service/service.xml

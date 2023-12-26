@@ -1,0 +1,5 @@
+Bundle-Name: common-constants
+Bundle-SymbolicName: sa.com.mysolutions.common.constants
+Bundle-Version: 1.0.0
+
+Export-Package: sa.com.mysolutions.common.constants.api

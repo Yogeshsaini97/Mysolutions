@@ -1,0 +1,81 @@
+info:
+    description: "ExternalApiHeadless REST API"
+    license:
+        name: "Apache 2.0"
+        url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+    title: "ExternalApiHeadless"
+    version: v1.0
+openapi: 3.0.1
+components:
+    schemas:
+        UserDetail:
+          description: This components represents User Details
+          properties:
+            entityType:
+              type: string 
+            entityName:
+              type: string
+            department:
+              type: string
+            crNumber:
+              type: string
+            fullName:
+              type: string
+            emailAddress:
+              type: string  
+            phoneNumber:
+              type: string
+          type: object 
+paths:
+    "/my-user-detail":
+           get:
+            description: This component is used to put user details
+            operationId: getUserDetails
+            parameters:
+              - in: query
+                name: crNumber
+                schema:
+                  type: string   
+            responses:
+              '200':
+                content:
+                  application/json:
+                    schema:
+                      items:
+                        $ref: '#/components/schemas/UserDetail'
+                      type: array
+                  application/xml:
+                    schema:
+                      items:
+                        $ref: '#/components/schemas/UserDetail'
+                      type: array
+                  
+                description: ''
+            tags: ["UserDetail"]
+           post:
+            description: This component is used to post user details
+            operationId: postUserDetails
+            requestBody:
+                content:
+                    application/json:
+                        schema:
+                            $ref: "#/components/schemas/UserDetail"
+                    application/xml:
+                        schema:
+                            $ref: "#/components/schemas/UserDetail"
+            responses:
+              '200':
+                content:
+                  application/json:
+                    schema:
+                      items:
+                        $ref: '#/components/schemas/UserDetail'
+                      type: array
+                  application/xml:
+                    schema:
+                      items:
+                        $ref: '#/components/schemas/UserDetail'
+                      type: array
+                  
+                description: ''
+            tags: ["UserDetail"]           
